@@ -2,7 +2,7 @@ import sys
 
 from PyQt6.QtWidgets import QApplication, QLabel, QWidget
 
-app = QApplication([])
+app = QApplication(sys.argv)
 
 window = QWidget()
 window.setWindowTitle("PyQt App")
