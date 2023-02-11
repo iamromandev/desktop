@@ -27,7 +27,7 @@ class Window(QWidget):
     def clicked(self):
         print("Clicked")
         email = EmailClient()
-        email.start()
+        #email.start()
 
 
 app = QApplication(sys.argv)
